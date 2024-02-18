@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  .no-print {
+    display: none;
+  }
+}
+
+
+.html-content ol {
+  list-style-type: decimal;
+  padding-left: 30px;
+}
+
+.html-content li {
+  margin-bottom: 16px;
+}
+
+.html-content ul {
+  margin-bottom: 16px;
+}
+
+.html-content ul li {
+  list-style-type: circle;
+  margin-left: 30px;
+}
+
+.html-content p {
+  margin-bottom: 16px;
+}
+
+.html-content p strong {
+  display: block;
+  /* Makes the strong tag a block-level element */
+  margin-top: 40px;
+  font-weight: bold;
+  /* Ensures the text is bold */
+}
+
+.object-cover {
+  object-fit: cover !important;
+}

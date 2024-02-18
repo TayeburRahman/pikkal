@@ -1,0 +1,11 @@
+{
+  "sshfs.configs": [],
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 15,
+  "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
